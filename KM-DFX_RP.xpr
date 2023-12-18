@@ -47,7 +47,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PSRCDIR/sources_1/bd/design_km_dfx_rp"/>
+    <Option Name="IPRepoPath" Val="$PSRCDIR/sources_1/bd/design_KM_DFX_RP"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../AXI_REG"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
@@ -133,7 +133,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/design_km_dfx_rp/component.xml">
+      <File Path="$PSRCDIR/sources_1/bd/design_KM_DFX_RP/component.xml">
         <FileInfo SFType="IPXACT"/>
       </File>
       <File Path="$PGENDIR/sources_1/bd/design_KM_DFX_RP/hdl/design_KM_DFX_RP_wrapper.v">
