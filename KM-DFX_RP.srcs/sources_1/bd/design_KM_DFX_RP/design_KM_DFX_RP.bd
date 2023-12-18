@@ -7,8 +7,7 @@
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2020.1",
-      "validated": "true",
-      "gen_directory": "../../../../KM-DFX_RP.gen/sources_1/bd/design_KM_DFX_RP"
+      "validated": "true"
     },
     "design_tree": {
       "AXI_REG_0": "",
@@ -287,8 +286,7 @@
     "components": {
       "AXI_REG_0": {
         "vlnv": "xilinx.com:user:AXI_REG:2.0",
-        "xci_name": "design_KM_DFX_RP_AXI_REG_0_0",
-        "xci_path": "ip/design_KM_DFX_RP_AXI_REG_0_0/design_KM_DFX_RP_AXI_REG_0_0.xci"
+        "xci_name": "design_KM_DFX_RP_AXI_REG_0_0"
       },
       "axis_dwidth_converter_0": {
         "vlnv": "xilinx.com:ip:axis_dwidth_converter:1.1",
@@ -312,8 +310,7 @@
           "S_TDATA_NUM_BYTES": {
             "value": "8"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_axis_dwidth_converter_0_0/design_KM_DFX_RP_axis_dwidth_converter_0_0.xci"
+        }
       },
       "axis_dwidth_converter_1": {
         "vlnv": "xilinx.com:ip:axis_dwidth_converter:1.1",
@@ -337,8 +334,7 @@
           "S_TDATA_NUM_BYTES": {
             "value": "4"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_axis_dwidth_converter_0_1/design_KM_DFX_RP_axis_dwidth_converter_0_1.xci"
+        }
       },
       "axis_subset_converter_0": {
         "vlnv": "xilinx.com:ip:axis_subset_converter:1.1",
@@ -380,8 +376,7 @@
           "TLAST_REMAP": {
             "value": "tlast[0]"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_axis_subset_converter_0_0/design_KM_DFX_RP_axis_subset_converter_0_0.xci"
+        }
       },
       "axis_subset_converter_1": {
         "vlnv": "xilinx.com:ip:axis_subset_converter:1.1",
@@ -426,8 +421,7 @@
           "TLAST_REMAP": {
             "value": "tlast[0]"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_axis_subset_converter_0_1/design_KM_DFX_RP_axis_subset_converter_0_1.xci"
+        }
       },
       "DeviceID": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -439,8 +433,7 @@
           "CONST_WIDTH": {
             "value": "32"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_xlconstant_0_0/design_KM_DFX_RP_xlconstant_0_0.xci"
+        }
       },
       "Version": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -452,8 +445,7 @@
           "CONST_WIDTH": {
             "value": "32"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_DeviceID_0/design_KM_DFX_RP_DeviceID_0.xci"
+        }
       },
       "ConfigReg": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -465,8 +457,7 @@
           "CONST_WIDTH": {
             "value": "32"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_Version_0/design_KM_DFX_RP_Version_0.xci"
+        }
       },
       "xlconcat_0": {
         "vlnv": "xilinx.com:ip:xlconcat:2.1",
@@ -493,8 +484,7 @@
           "NUM_PORTS": {
             "value": "6"
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_xlconcat_0_0/design_KM_DFX_RP_xlconcat_0_0.xci"
+        }
       },
       "bit_shift_left_0": {
         "vlnv": "xilinx.com:module_ref:bit_shift_left:1.0",
@@ -715,8 +705,7 @@
               }
             }
           }
-        },
-        "xci_path": "ip/design_KM_DFX_RP_bit_shift_left_0_0/design_KM_DFX_RP_bit_shift_left_0_0.xci"
+        }
       }
     },
     "interface_nets": {
