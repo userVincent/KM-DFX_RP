@@ -64,7 +64,7 @@ input                                                                    tlast,
 output [C_M_AXIS_TDATA_WIDTH-1:0] tdata_out
 );
 
-assign tdata_out = {tdata[31:0]};
+assign tdata_out = {tdata[63:0]};
 
 endmodule
 

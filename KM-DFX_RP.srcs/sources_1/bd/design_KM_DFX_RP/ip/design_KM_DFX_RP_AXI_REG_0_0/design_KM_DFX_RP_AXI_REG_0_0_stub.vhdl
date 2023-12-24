@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
 -- Date        : Sun Dec 17 19:03:09 2023
 -- Host        : vvansant running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/vince/Documents/School/Master/RandD/final/KM-DFX_RP/KM-DFX_RP.srcs/sources_1/bd/design_KM_DFX_RP/ip/design_KM_DFX_RP_AXI_REG_0_0/design_KM_DFX_RP_AXI_REG_0_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_KM_DFX_RP_AXI_REG_0_0 -prefix
+--               design_KM_DFX_RP_AXI_REG_0_0_ design_KM_DFX_RP_AXI_REG_0_0_stub.vhdl
 -- Design      : design_KM_DFX_RP_AXI_REG_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

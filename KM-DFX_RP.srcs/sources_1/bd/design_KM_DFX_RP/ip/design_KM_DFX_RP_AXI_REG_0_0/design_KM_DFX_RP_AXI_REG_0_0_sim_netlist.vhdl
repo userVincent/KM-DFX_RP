@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
 -- Date        : Sun Dec 17 19:03:09 2023
 -- Host        : vvansant running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/vince/Documents/School/Master/RandD/final/KM-DFX_RP/KM-DFX_RP.srcs/sources_1/bd/design_KM_DFX_RP/ip/design_KM_DFX_RP_AXI_REG_0_0/design_KM_DFX_RP_AXI_REG_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_KM_DFX_RP_AXI_REG_0_0 -prefix
+--               design_KM_DFX_RP_AXI_REG_0_0_ design_KM_DFX_RP_AXI_REG_0_0_sim_netlist.vhdl
 -- Design      : design_KM_DFX_RP_AXI_REG_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -38,8 +38,6 @@ entity design_KM_DFX_RP_AXI_REG_0_0_AXI_REG is
     s00_axi_arvalid : in STD_LOGIC;
     s00_axi_aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_KM_DFX_RP_AXI_REG_0_0_AXI_REG : entity is "AXI_REG";
 end design_KM_DFX_RP_AXI_REG_0_0_AXI_REG;
 
 architecture STRUCTURE of design_KM_DFX_RP_AXI_REG_0_0_AXI_REG is
@@ -10053,8 +10051,6 @@ entity design_KM_DFX_RP_AXI_REG_0_0_AXI_REG_wrapper is
     s00_axi_bready : in STD_LOGIC;
     s00_axi_rready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_KM_DFX_RP_AXI_REG_0_0_AXI_REG_wrapper : entity is "AXI_REG_wrapper";
 end design_KM_DFX_RP_AXI_REG_0_0_AXI_REG_wrapper;
 
 architecture STRUCTURE of design_KM_DFX_RP_AXI_REG_0_0_AXI_REG_wrapper is
