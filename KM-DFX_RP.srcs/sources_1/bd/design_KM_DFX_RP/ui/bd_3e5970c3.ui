@@ -1,42 +1,42 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.853496",
-   "Default View_TopLeft":"-115,-104",
+   "Default View_ScaleFactor":"0.872872",
+   "Default View_TopLeft":"-115,-103",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
 #  -string -flagsOSRD
 preplace port S_AXI_LITE -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
-preplace port M_AXIS -pg 1 -lvl 7 -x 1590 -y 570 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 7 -x 1550 -y 550 -defaultsOSRD
 preplace port S_AXIS -pg 1 -lvl 0 -x 0 -y 460 -defaultsOSRD
 preplace port aresetn -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
 preplace port aclk -pg 1 -lvl 0 -x 0 -y 490 -defaultsOSRD
 preplace inst AXI_REG_0 -pg 1 -lvl 3 -x 580 -y 350 -defaultsOSRD
 preplace inst axis_dwidth_converter_0 -pg 1 -lvl 2 -x 290 -y 480 -defaultsOSRD
-preplace inst axis_dwidth_converter_1 -pg 1 -lvl 6 -x 1470 -y 570 -defaultsOSRD
+preplace inst axis_dwidth_converter_1 -pg 1 -lvl 6 -x 1430 -y 550 -defaultsOSRD
 preplace inst axis_subset_converter_0 -pg 1 -lvl 3 -x 580 -y 500 -defaultsOSRD
-preplace inst axis_subset_converter_1 -pg 1 -lvl 5 -x 1210 -y 550 -defaultsOSRD
+preplace inst axis_subset_converter_1 -pg 1 -lvl 5 -x 1170 -y 530 -defaultsOSRD
 preplace inst DeviceID -pg 1 -lvl 1 -x 100 -y 60 -defaultsOSRD
 preplace inst Version -pg 1 -lvl 1 -x 100 -y 160 -defaultsOSRD
 preplace inst ConfigReg -pg 1 -lvl 1 -x 100 -y 260 -defaultsOSRD
 preplace inst xlconcat_0 -pg 1 -lvl 2 -x 290 -y 190 -defaultsOSRD
-preplace inst bit_shift_left_0 -pg 1 -lvl 4 -x 910 -y 530 -defaultsOSRD
-preplace netloc aclk_0_1 1 0 6 NJ 490 180 400 390 580 760 630 1050 630 1360
-preplace netloc aresetn_0_1 1 0 6 NJ 520 180 560 400 590 770 640 1060 640 1370
+preplace inst axis_data_fifo_0 -pg 1 -lvl 4 -x 890 -y 510 -defaultsOSRD
+preplace netloc aclk_0_1 1 0 6 NJ 490 180 560 390 580 770 590 1010 610 1320
+preplace netloc aresetn_0_1 1 0 6 NJ 520 190 570 400 590 760 600 1020 620 1330
 preplace netloc DeviceID_dout 1 1 1 180J 60n
 preplace netloc ConfigReg_dout 1 1 1 180J 180n
 preplace netloc Version_dout 1 1 1 NJ 160
 preplace netloc xlconcat_0_dout 1 2 1 390 190n
-preplace netloc axis_dwidth_converter_1_M_AXIS 1 6 1 N 570
-preplace netloc axis_dwidth_converter_0_M_AXIS 1 2 1 N 480
-preplace netloc axis_subset_converter_1_M_AXIS 1 5 1 N 550
+preplace netloc axis_dwidth_converter_1_M_AXIS 1 6 1 N 550
 preplace netloc S_AXIS_0_1 1 0 2 NJ 460 NJ
+preplace netloc axis_subset_converter_1_M_AXIS 1 5 1 N 530
 preplace netloc s00_axi_0_1 1 0 3 NJ 320 NJ 320 NJ
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 2 1 N 480
 preplace netloc axis_subset_converter_0_M_AXIS 1 3 1 N 490
-preplace netloc bit_shift_left_0_m00_axis 1 4 1 N 530
-levelinfo -pg 1 0 100 290 580 910 1210 1470 1590
-pagesize -pg 1 -db -bbox -sgen -120 0 1690 650
+preplace netloc axis_data_fifo_0_M_AXIS 1 4 1 N 510
+levelinfo -pg 1 0 100 290 580 890 1170 1430 1550
+pagesize -pg 1 -db -bbox -sgen -120 0 1650 630
 "
 }
 {
-   "da_clkrst_cnt":"9"
+   "da_clkrst_cnt":"10"
 }
